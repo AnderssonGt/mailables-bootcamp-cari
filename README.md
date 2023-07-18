@@ -19,18 +19,8 @@ chmod -R 775 ./storage/*
 chmod -R 777 ./storage/*
 ```
 
-## migrar la base de datos
-ejecutar el siguiente comando:
-```
-php artisan migrate
-```
-
 Comando para dar permisos de escritura:
 ```
 sudo chown -R usuario ~/*
 ```
 
-
-- enlaces
-Install Tailwind CSS with Laravel
-- https://tailwindcss.com/docs/guides/laravel
